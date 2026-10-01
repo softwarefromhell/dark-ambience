@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cu38r3o4ie85y"]
+
+[ext_resource type="Script" uid="uid://cfxmug6w5hrpm" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://dp7csy4w0mf0l" path="res://core/idle_detector.tscn" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://vpkj8rfmlydp" path="res://ui/main_window/main_window.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dlyl7jnnb04wr" path="res://ui/screensaver/screensaver.tscn" id="3_1bvp3"]
+
+[node name="Main" type="Node" unique_id=2068272716]
+script = ExtResource("1_ig7tw")
+
+[node name="IdleDetector" parent="." unique_id=1117847287 instance=ExtResource("2_1bvp3")]
+
+[node name="MainWindow" parent="." unique_id=959234356 instance=ExtResource("2_h2yge")]
+
+[node name="Screensaver" parent="." unique_id=224226851 instance=ExtResource("3_1bvp3")]

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dp7csy4w0mf0l"]
+
+[ext_resource type="Script" uid="uid://ba1ajhk0c42mq" path="res://core/idle_detector.gd" id="1_8sb07"]
+
+[node name="IdleDetector" type="Node" unique_id=1117847287]
+script = ExtResource("1_8sb07")
